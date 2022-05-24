@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "xpro:xprite"
+    },
+    "title": {
+      "text": "Curse isn't always bad!"
+    },
+    "frame": "task",
+    "description": "Right click on a Netherite Block with Diamond!"
+  }
+  "criteria": {
+    "xprite": {
+      "location": {
+        "block": {
+          "tag": "minecraft:netherite_block"
+        }
+      },
+      "item": {
+        "items": [
+          "minecraft:diamond"
+        ]
+      }
+    }
+  },
+  "rewards"; {
+    "recipes": [
+      "xpro:xprite",
+      "xpro:xprite_sword",
+      "xpro:xprite_shovel",
+      "xpro:xprite_axe",
+      "xpro:xprite_hoe",
+      "xpro:xprite_pickaxe"
+    ]
+  }
+}
