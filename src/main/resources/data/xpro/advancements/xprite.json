@@ -7,23 +7,27 @@
       "text": "Curse isn't always bad!"
     },
     "frame": "task",
-    "description": "Right click on a Netherite Block with Diamond!"
-  }
+    "description": "Place a Diamond Block on a Netherite Block!"
+  },
   "criteria": {
     "xprite": {
-      "location": {
-        "block": {
-          "tag": "minecraft:netherite_block"
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "block": "minecraft:diamond_block",
+        "location": {
+          "block": {
+            "tag": "minecraft:netherite_block"
+          }
+        },
+        "item": {
+          "items": [
+            "minecraft:diamond_block"
+          ]
         }
-      },
-      "item": {
-        "items": [
-          "minecraft:diamond"
-        ]
       }
     }
   },
-  "rewards"; {
+  "rewards": {
     "recipes": [
       "xpro:xprite",
       "xpro:xprite_sword",
